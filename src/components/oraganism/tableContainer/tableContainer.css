@@ -1,0 +1,37 @@
+.table__container {
+  color: black;
+  margin-top: 10px;
+}
+
+.filters__panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.filters {
+  display: flex;
+}
+
+.filters:hover {
+  cursor: pointer;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  letter-spacing: -1px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
